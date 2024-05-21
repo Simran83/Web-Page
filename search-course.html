@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Course</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="search-course.html" class="active">Search Course</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="portal.html">Portal</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside class="sidebar">
+            <!-- filters here -->
+            <h2>Filters</h2>
+            <form>
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="">Select a country</option>
+                    <option value="germany">Germany</option>
+                    <option value="India">India</option>
+                    <option value="china">china</option>
+                    <option value="London">London</option>
+                    <!-- add more options here -->
+                </select>
+                <br><br>
+                <label for="study-level">Study Level:</label>
+                <select id="study-level" name="study-level">
+                    <option value="">Select a study level</option>
+                    <option value="bachelor">Bachelor</option>
+                    <option value="master">Master</option>
+                    <option value="bachelor">Diploma</option>
+                    <option value="bachelor">Double Degree</option>
+                    <option value="bachelor">Church Exam</option>
+                    <option value="bachelor">State Exam</option>
+                    <option value="bachelor">Others</option>
+                    <!-- add more options here -->
+                </select>
+                <br><br>
+                <label for="Teaching language">Teaching language</label>
+                <select id="Teaching language" name="Teaching language">
+                    <option value="">Select a Teaching language</option>
+                    <option value="ARABIC">ARABIC</option>
+                    <option value="CHINESE">CHINESE</option>
+                    <option value="DANISH">DANISH</option>
+                    <option value="DUTCH">DUTCH</option>
+                    <option value="ENGLISH">ENGLISH</option>
+                    <option value="FRENCH">FRENCH</option>
+                    <option value="GERMAN">GERMAN</option>
+                    <option value="GREEK">GREEK</option>
+                    <option value="HINDI">HINDI</option>
+                    <option value="OTHERS">OTHERS</option>
+                </select> 
+                <br><br> 
+                <label for="Beginning Semester">--Beginning Semester--</label>
+                <select id="Beginning Semester" name="Beginning Semester">
+                    <option value="">Select a Beginning Semester</option>
+                    <option value="ALL QUARTERS">ALL QUARTERS</option>
+                    <option value="ALL TRIMESTERS">ALL TRIMESTERS</option>
+                    <option value="ANYTIME">ANYTIME</option>
+                    <option value="AUTUMN">AUTUMN</option>
+                    <option value="AUTUMN QUARTERS">AUTUMN QUARTERS </option>
+                    <option value="AUTUMN TRIMESTERS">AUTUMN TRIMESTERS </option>
+                    <option value="JANUARY">JANUARY</option>
+                    <option value="N/A">N/A</option>
+                    <option value="OTHERS">OTHERS</option>
+                    <!-- add more options here -->
+                </select>
+                <br><br>
+                <label for="Duartion">Duartion</label>
+                <select id="Duartion" name="Duartion">
+                    <option value="">Select a Duartion</option>
+                    <option value="1 Semester">1 Semester</option>
+                    <option value="1 Months">1 Months</option>
+                    <option value="10 Semester">10 Semester</option>
+                    <option value="10 TRIMESTERS">10 TRIMESTERS</option>
+                    <option value="10 Months">10 Months</option>
+                    <!-- add more options here -->
+                </select>
+                <br><br>
+
+               <label for="field-of-study">Field of Study:</label>
+                <select id="field-of-study" name="field-of-study">
+                    <option value="">Select a field of study</option>
+                    <option value="computer-science">Computer Science</option>
+                    <option value="Information Technology">Information Technology</option>
+                    <!-- add more options here -->
+                </select>
+                <br><br>
+                <button type="submit">Apply Filters</button>
+            </form>
+        </aside>
+        <section class="program-list">
+            <!-- program list here -->
+            <h2>Programs</h2>
+            <ul>
+                <li>
+                    <h3>Program 1</h3>
+                    <p>Program description</p>
+                </li>
+                <li>
+                    <h3>Program 2</h3>
+                    <p>Program description</p>
+                </li>
+               
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
